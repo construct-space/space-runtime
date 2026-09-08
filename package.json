@@ -1,0 +1,16 @@
+{
+  "name": "@construct-space/space-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Headless executor for Construct space actions — runs a space's actions.ts against Graph with no desktop/webview. Hosted on the desktop (next to the brain) and in the cloud fallback executor.",
+  "module": "src/index.ts",
+  "scripts": {
+    "serve": "bun src/server.ts",
+    "run-action": "bun src/run.ts"
+  },
+  "dependencies": {
+    "@construct-space/graph": "^1.0.2",
+    "@construct-space/sdk": "^2.0.4"
+  }
+}
